@@ -1,0 +1,12 @@
+spring.profiles.active: dev,native
+
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: file:./configurations
+server:
+  port: 8888
